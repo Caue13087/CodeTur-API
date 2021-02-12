@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeTur.Dominio", "CodeTur.Dominio\CodeTur.Dominio.csproj", "{4585B0F3-8574-485E-B83D-EE46B56EDFE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeTur.Dominio", "CodeTur.Dominio\CodeTur.Dominio.csproj", "{4585B0F3-8574-485E-B83D-EE46B56EDFE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeTur.Comum", "CodeTur.Comum\CodeTur.Comum.csproj", "{DA5A0A5B-87D9-4E3E-B417-BF24154A822E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeTur.Comum", "CodeTur.Comum\CodeTur.Comum.csproj", "{DA5A0A5B-87D9-4E3E-B417-BF24154A822E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeTur.Testes", "CodeTur.Testes\CodeTur.Testes.csproj", "{BC15BA11-FE20-47D8-ADBB-8A0CD6DF59FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeTur.Testes", "CodeTur.Testes\CodeTur.Testes.csproj", "{BC15BA11-FE20-47D8-ADBB-8A0CD6DF59FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeTur.Infra.Data", "CodeTur.Infra.Data\CodeTur.Infra.Data.csproj", "{8C771722-22C8-4B50-9864-9CF8EAC82E21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeTur.Api", "CodeTur.Api\CodeTur.Api.csproj", "{DF5266F0-BE39-4DC7-A4B5-294AB0034B6F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{BC15BA11-FE20-47D8-ADBB-8A0CD6DF59FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC15BA11-FE20-47D8-ADBB-8A0CD6DF59FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC15BA11-FE20-47D8-ADBB-8A0CD6DF59FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C771722-22C8-4B50-9864-9CF8EAC82E21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C771722-22C8-4B50-9864-9CF8EAC82E21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C771722-22C8-4B50-9864-9CF8EAC82E21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C771722-22C8-4B50-9864-9CF8EAC82E21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF5266F0-BE39-4DC7-A4B5-294AB0034B6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF5266F0-BE39-4DC7-A4B5-294AB0034B6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF5266F0-BE39-4DC7-A4B5-294AB0034B6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF5266F0-BE39-4DC7-A4B5-294AB0034B6F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
